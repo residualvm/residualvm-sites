@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>ResidualVM :: Doxygen</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <link rel="stylesheet" href="$relpath$doxygen.css" type="text/css">
+    <link rel="stylesheet" href="$relpath$residualvm_tabs.css" type="text/css">
+    <link rel="stylesheet" href="$relpath$residualvm.css" type="text/css">
+  </head>
+  <body>
+<table width="90%" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td style="width:199px;"><img src="$relpath$images/logo.png" width="199" height="65" alt="ResidualVM logo"></td>
+
+    <td style="width:80%; background-image: url('$relpath$images/top_bg.png'); vertical-align: middle; text-align: left; white-space:nowrap;">
+      <a href="http://www.residualvm.org/" target="_parent">ResidualVM website</a> -
+      <a href="http://forums.residualvm.org/" target="_parent">Forums</a> -
+      <a href="http://www.residualvm.org/contact.php" target="_parent">Contact us</a>
+    </td>
+
+    <td style="background-image: url('$relpath$images/top_bg.png'); vertical-align: middle; text-align: right; white-space:nowrap;">
+
+  <!-- new nav table -->
+
+    <a href="http://buildbot.residualvm.org" target="_parent">BuildBot</a> -
+    <a href="http://doxygen.residualvm.org" target="_parent">Doxygen</a> -
+    <a href="http://wiki.residualvm.org" target="_parent">Wiki</a>
+
+  <!-- end of new nav table -->
+
+    </td>
+
+    <td style="width:20px;"><img src="$relpath$images/curve_tr.png" width="20" height="65" alt="curved edge"></td>
+
+  </tr>
+
+  <!-- top logo, navbar ends here, now on to the main forum body -->
+
+  <tr bgcolor="#D5ECDD">
+    <td colspan="4">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-left: 5px; padding-right: 5px;">
+        <tr>
+          <td>

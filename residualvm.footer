@@ -1,0 +1,24 @@
+<!-- DEBUG: overall_footer.tpl starts here -->
+<div align="center"><br>
+<!-- END switch_user_logged_in -->
+  <hr size="1"><address style="align: right;"><small>
+Generated on $datetime for $projectname by&nbsp;<a href="http://www.doxygen.org/index.html" target="_parent"><img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> $doxygenversion</small></address></div>
+</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="4">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><img src="$relpath$images/curve_bl.png" width="20" height="20" alt="curved edge"></td>
+          <td width="100%" bgcolor="#D5ECDD">&nbsp;</td>
+          <td align="right" valign="bottom"><img src="$relpath$images/curve_br.png" width="20" height="20" alt="curved edge"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+  </BODY>
+</HTML>
