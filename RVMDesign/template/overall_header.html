@@ -24,7 +24,7 @@
 <!-- ENDIF -->
 
 <link rel="stylesheet" href="{T_STYLESHEET_LINK}" type="text/css" />
-
+<link rel="shortcut icon" href="styles/RVMDesign/imageset/favicon.ico">
 <script type="text/javascript">
 // <![CDATA[
 <!-- IF S_USER_PM_POPUP and S_NEW_PM -->
@@ -139,57 +139,45 @@ function marklist(id, name, state)
 // ]]>
 </script>
 </head>
-<body class="{S_CONTENT_DIRECTION}">
+<body style="background-image: url('styles/RVMDesign/imageset/body-bg.gif'); margin: 10px;">
+<table width="90%" border="0" cellspacing="0" cellpadding="0" align="center">
+	<tr>
+		<td><img src="styles/RVMDesign/imageset/logo_phpVB2.gif" width="199" height="65" alt="ResidualVM logo"></td>
+      
+		<td width="50%" style="background-image: url('styles/RVMDesign/imageset/top_bg.gif'); vertical-align: middle; text-align: left; white-space:nowrap;">
+			<a href="index.php">Forum Index</a> -
+			<a href="http://www.residualvm.org/">ResidualVM website</a> -
+			<a href="http://www.residualvm.org/contact.php">Contact us</a> -
+			<a href="viewtopic.php?t=2">Rules</a>
+		</td>
 
-<a name="top"></a>
+		<td width="50%" style="background-image: url('styles/RVMDesign/imageset/top_bg.gif'); vertical-align: middle; text-align: right; white-space:nowrap;">
 
-<div id="wrapheader">
-
-	<div id="logodesc">
-		<table width="100%" cellspacing="0">
-		<tr>
-			<td><a href="{U_INDEX}">{SITE_LOGO_IMG}</a></td>
-			<td width="100%" align="center"><h1>{SITENAME}</h1><span class="gen">{SITE_DESCRIPTION}</span></td>
-		</tr>
-		</table>
-	</div>
-
-	<div id="menubar">
-		<table width="100%" cellspacing="0">
-		<tr>
-			<td class="genmed">
-				<!-- IF not S_IS_BOT --><a href="{U_LOGIN_LOGOUT}"><img src="{T_THEME_PATH}/images/icon_mini_login.gif" width="12" height="13" alt="*" /> {L_LOGIN_LOGOUT}</a>&nbsp;<!-- ENDIF -->
-				<!-- IF U_RESTORE_PERMISSIONS --> &nbsp;<a href="{U_RESTORE_PERMISSIONS}"><img src="{T_THEME_PATH}/images/icon_mini_login.gif" width="12" height="13" alt="*" /> {L_RESTORE_PERMISSIONS}</a><!-- ENDIF -->
+				<!-- IF not S_IS_BOT --><a href="{U_LOGIN_LOGOUT}"> {L_LOGIN_LOGOUT}</a>&nbsp;<!-- ENDIF -->
+				<!-- IF U_RESTORE_PERMISSIONS --> &nbsp;<a href="{U_RESTORE_PERMISSIONS}"> {L_RESTORE_PERMISSIONS}</a><!-- ENDIF -->
 				<!-- IF S_BOARD_DISABLED and S_USER_LOGGED_IN --> &nbsp;<span style="color: red;">{L_BOARD_DISABLED}</span><!-- ENDIF -->
 				<!-- IF not S_IS_BOT -->
 					<!-- IF S_USER_LOGGED_IN -->
-						<!-- IF S_DISPLAY_PM --> &nbsp;<a href="{U_PRIVATEMSGS}"><img src="{T_THEME_PATH}/images/icon_mini_message.gif" width="12" height="13" alt="*" /> {PRIVATE_MESSAGE_INFO}<!-- IF PRIVATE_MESSAGE_INFO_UNREAD -->, {PRIVATE_MESSAGE_INFO_UNREAD}<!-- ENDIF --></a><!-- ENDIF -->
-					<!-- ELSEIF S_REGISTER_ENABLED and not (S_SHOW_COPPA or S_REGISTRATION) --> &nbsp;<a href="{U_REGISTER}"><img src="{T_THEME_PATH}/images/icon_mini_register.gif" width="12" height="13" alt="*" /> {L_REGISTER}</a>
+						<!-- IF S_DISPLAY_PM --> &nbsp;<a href="{U_PRIVATEMSGS}"> {PRIVATE_MESSAGE_INFO}<!-- IF PRIVATE_MESSAGE_INFO_UNREAD -->, {PRIVATE_MESSAGE_INFO_UNREAD}<!-- ENDIF --></a><!-- ENDIF -->
+					<!-- ELSEIF S_REGISTER_ENABLED and not (S_SHOW_COPPA or S_REGISTRATION) --> &nbsp;<a href="{U_REGISTER}"> {L_REGISTER}</a>
 					<!-- ENDIF -->
 				<!-- ENDIF -->
-			</td>
-			<td class="genmed" align="{S_CONTENT_FLOW_END}">
-				<a href="{U_FAQ}"><img src="{T_THEME_PATH}/images/icon_mini_faq.gif" width="12" height="13" alt="*" /> {L_FAQ}</a>
-				<!-- IF S_DISPLAY_SEARCH -->&nbsp; &nbsp;<a href="{U_SEARCH}"><img src="{T_THEME_PATH}/images/icon_mini_search.gif" width="12" height="13" alt="*" /> {L_SEARCH}</a><!-- ENDIF -->
+
+				<!-- IF S_DISPLAY_SEARCH -->&nbsp; &nbsp;<a href="{U_SEARCH}"> {L_SEARCH}</a><!-- ENDIF -->
 				<!-- IF not S_IS_BOT -->
-					<!-- IF S_DISPLAY_MEMBERLIST -->&nbsp; &nbsp;<a href="{U_MEMBERLIST}"><img src="{T_THEME_PATH}/images/icon_mini_members.gif" width="12" height="13" alt="*" /> {L_MEMBERLIST}</a><!-- ENDIF -->
-					<!-- IF S_USER_LOGGED_IN -->&nbsp; &nbsp;<a href="{U_PROFILE}"><img src="{T_THEME_PATH}/images/icon_mini_profile.gif" width="12" height="13" alt="*" /> {L_PROFILE}</a><!-- ENDIF -->
+					<!-- IF S_USER_LOGGED_IN -->&nbsp; &nbsp;<a href="{U_PROFILE}"> {L_PROFILE}</a><!-- ENDIF -->
 				<!-- ENDIF -->
-			</td>
-		</tr>
-		</table>
-	</div>
+		</td>
 
-	<div id="datebar">
-		<table width="100%" cellspacing="0">
-		<tr>
-			<td class="gensmall"><!-- IF S_USER_LOGGED_IN -->{LAST_VISIT_DATE}<!-- ENDIF --></td>
-			<td class="gensmall" align="{S_CONTENT_FLOW_END}">{CURRENT_TIME}<br /></td>
-		</tr>
-		</table>
-	</div>
+		<td><img src="styles/RVMDesign/imageset/curve_tr.gif" width="20" height="65" alt="curved edge"></td>
+	</tr>
 
-</div>
+
+<tr bgcolor="#d5ecdd">
+	<td colspan="4">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-left: 5px; padding-right: 5px;">
+			<tr>
+				<td>
 
 <div id="wrapcentre">
 
@@ -201,6 +189,17 @@ function marklist(id, name, state)
 		<!-- ENDIF -->
 	</p>
 	<!-- ENDIF -->
+
+	<table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td align="left" width="50%" valign="middle">
+			<!-- IF S_USER_LOGGED_IN -->{LAST_VISIT_DATE}<!-- ENDIF -->
+		</td>
+		<td align="right" width="50%" valign="middle">
+			{CURRENT_TIME}<br />
+		</td>
+	</tr>
+	</table>
 
 	<br style="clear: both;" />
 
