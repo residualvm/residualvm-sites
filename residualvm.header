@@ -13,18 +13,18 @@
     <td style="width:199px;"><img src="$relpath$images/logo.png" width="199" height="65" alt="ResidualVM logo"></td>
 
     <td style="width:80%; background-image: url('$relpath$images/top_bg.png'); vertical-align: middle; text-align: left; white-space:nowrap;">
-      <a href="http://www.residualvm.org/" target="_parent">ResidualVM website</a> -
-      <a href="http://forums.residualvm.org/" target="_parent">Forums</a> -
-      <a href="http://www.residualvm.org/contact.php" target="_parent">Contact us</a>
+      <a href="https://www.residualvm.org/" target="_parent">ResidualVM website</a> -
+      <a href="https://forums.residualvm.org/" target="_parent">Forums</a> -
+      <a href="https://www.residualvm.org/contact.php" target="_parent">Contact us</a>
     </td>
 
     <td style="background-image: url('$relpath$images/top_bg.png'); vertical-align: middle; text-align: right; white-space:nowrap;">
 
   <!-- new nav table -->
 
-    <a href="http://buildbot.residualvm.org" target="_parent">BuildBot</a> -
-    <a href="http://doxygen.residualvm.org" target="_parent">Doxygen</a> -
-    <a href="http://wiki.residualvm.org" target="_parent">Wiki</a>
+    <a href="https://buildbot.residualvm.org" target="_parent">BuildBot</a> -
+    <a href="https://doxygen.residualvm.org" target="_parent">Doxygen</a> -
+    <a href="https://wiki.residualvm.org" target="_parent">Wiki</a>
 
   <!-- end of new nav table -->
 

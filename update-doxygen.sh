@@ -9,7 +9,7 @@ LOCKFILE=${BASEPATH}/doxygen.lock
 # Create a lockfile (and delete it if we abort)
 lock_unlock action=lock name=$LOCKFILE
 
-echo "Updating GIT..."
+echo "Updating git..."
 cd ${BASEPATH}/sources
 nice git pull
 
